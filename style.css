@@ -1,0 +1,36 @@
+body{
+    background-color: rgb(77, 148, 172);
+    text-align: center;
+}
+#titulo{
+    font-family: 'Comfortaa', cursive,Arial;
+}
+p{
+    padding-top: 7px;
+    font-size: 21px;
+}
+
+.btn-info{
+    color: black;
+}
+
+canvas{
+    border: 3px solid gray;
+    border-radius: 20px;
+    margin-top: 50px;
+    animation-name : cores;
+    animation-duration :2s;
+    animation-iteration-count: infinite;
+ 
+}
+
+@keyframes cores{
+    from{
+        box-shadow: 1px 1px 38px green;
+    }
+
+    to{
+        box-shadow: 1px 1px 38px yellow;
+
+    }
+}
